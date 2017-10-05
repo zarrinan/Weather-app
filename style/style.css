@@ -11,9 +11,10 @@ main {
 }
 
 .page {
-  width: 700px;
+  width: 500px;
   height: 600px;
   margin: 0 auto;
+  margin-top: 50px;
   border-radius: 20px;
 /*  background-color: rgba(150,205,205, 1);
 */  position: absolute;
