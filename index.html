@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+  <meta http-equiv='X-UA-Compatible' content='ie=edge' />
+  <title>Weather app!!!!!</title>
+  <link rel='stylesheet' type='text/css' href='./style/reset.css'>
+  <link rel='stylesheet' type='text/css' href='./style/style.css'>
+  <link href="https://fonts.googleapis.com/css?family=Convergence" rel="stylesheet">
+ <script src="http://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+   crossorigin="anonymous"></script>
+</head>
+<body>
+  <main>
+    <div class='page' id='landingPage'>
+      <header>
+        <div class='dataEntry'>
+            <input id='forZip' type="text" name='enterZZip'>
+            <input id='forSubmit' type="submit" value='Search'>
+        </div>
+      </header>
+    </div>
+    <div class='page' id='mainPage'>
+      <header>
+        <div class='dataEntry'>
+            <input id='forZip2' type="text" name='enterZZip'>
+            <input id='forSubmit2' type="submit" value='Search'>
+        </div>
+      </header>
+      <article>
+        <h1 id='city'></h1>
+        <h6 id='location'></h6>
+        <div id='showTemp'></div>
+        <div id='precipitation'></div>
+        <div id='weatherDesc'></div>
+        <div class='lowHigh'>
+          <div class='sTemp' id='lowTemp'></div>
+          <div class='sTemp' id='highTemp'></div>
+        </div>
+        <div id='rest'>
+          <span id='humidity'></span>
+          <span id='wind'></span>
+        </div>
+      </article>
+
+    </div>
+
+  </main>
+  <script src='./src/main.js'></script>
+</body>
+</html>

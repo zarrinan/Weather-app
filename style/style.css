@@ -1,0 +1,181 @@
+
+body {
+  font-size: 0;
+  font-family: 'Convergence', sans-serif;
+}
+main {
+  position: relative;
+  margin: 0 auto;
+  width: 700px;
+  height: 600px;
+}
+
+.page {
+  width: 700px;
+  height: 600px;
+  margin: 0 auto;
+  border-radius: 20px;
+/*  background-color: rgba(150,205,205, 1);
+*/  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid;
+}
+
+.dataEntry {
+  width: 350px;
+  height: 60px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+
+#formHere {
+  text-align: center;
+}
+
+#forZip {
+  width: 150px;
+  height: 30px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  font-color: grey;
+
+}
+#forSubmit {
+  width: 100px;
+  height: 43px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  background-color: royalBlue;
+  font-size: 15px;
+  text-align: center;
+  padding: 5px;
+}
+#mainPage {
+  justify-content: flex-start;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+#city {
+  text-align: center;
+  font-size: 20px;
+  margin: 5px auto;
+}
+
+#location {
+  text-align: center;
+  font-size: 15px;
+}
+
+#showTemp {
+  width: 300px;
+  height: 120px;
+  /*background-color: lightGreen;*/
+  font-size: 110px;
+  margin: 20px auto 0px;
+  padding: 10px;
+/*  color: white;
+*/  text-align: center;
+  vertical-align: middle;
+}
+
+#precipitation {
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  /*background-color: lightYellow;*/
+}
+
+#weatherDesc {
+  text-align: center;
+  font-size: 30px;
+  margin: 10px auto;
+  padding: 5px;
+}
+
+.lowHigh {
+  display: flex;
+  width: 500px;
+  height: 80px;
+  justify-content: space-around;
+  /*background-color: lightPink;*/
+  margin: 0 auto;
+  font-size: 30px;
+}
+
+.sTemp {
+/*  background-color: lightBlue;
+*/  width: 50px;
+  height: 70px;
+  font-size: 22px;
+  margin: 10px;
+  text-align: center;
+}
+
+#highTemp {
+  /*background-color: lightGrey;*/
+}
+
+#rest {
+  width: 290px;
+  height: 30px;
+/*  background-color: lightGreen;
+*/  margin: 0 auto;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#forZip2 {
+  width: 150px;
+  height: 30px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  font-color: grey;
+
+}
+
+#forSubmit2 {
+  width: 100px;
+  height: 43px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  background-color: royalBlue;
+  font-size: 15px;
+  text-align: center;
+  padding: 5px;
+}
+
+.forSpan {
+  font-size: 15px;
+  padding: 2px;
+  margin: 5px auto 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
